@@ -6,7 +6,6 @@
   align-items: center;
   /* height: 100vh; */
   flex-direction: column;
-  font-family:cursive;
 }
 body{
    background-color: bisque;
