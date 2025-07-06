@@ -6,9 +6,11 @@
   align-items: center;
   /* height: 100vh; */
   flex-direction: column;
+
 }
 body{
    background-color: bisque;
+   font-family:Arial;
 }
 
 .App-header {
@@ -35,7 +37,6 @@ body{
   font-size: 40px;
   border-radius: 10px;
   background-color: rgb(12, 67, 116);
-  font-family:cursive;
   cursor: pointer;
 }
 .btn:hover{
@@ -53,8 +54,11 @@ body{
 }
 .win-status-restart{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 50px;
+}
+.win-status-restart h2{
+  padding-top: 10px;
 }
 
