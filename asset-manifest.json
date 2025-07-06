@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ramkishore-tic-tac-toe/static/css/main.30cbdcb3.css",
+    "main.css": "/ramkishore-tic-tac-toe/static/css/main.5b62b96a.css",
     "main.js": "/ramkishore-tic-tac-toe/static/js/main.6644c5d3.js",
     "static/media/win-sound.wav": "/ramkishore-tic-tac-toe/static/media/win-sound.fe95e484c435a6154d9c.wav",
     "static/media/draw-sound.wav": "/ramkishore-tic-tac-toe/static/media/draw-sound.3ee49855187ff677a6c6.wav",
     "static/media/button_click.mp3": "/ramkishore-tic-tac-toe/static/media/button_click.d4d44e346efa766b9c7b.mp3",
     "index.html": "/ramkishore-tic-tac-toe/index.html",
-    "main.30cbdcb3.css.map": "/ramkishore-tic-tac-toe/static/css/main.30cbdcb3.css.map",
+    "main.5b62b96a.css.map": "/ramkishore-tic-tac-toe/static/css/main.5b62b96a.css.map",
     "main.6644c5d3.js.map": "/ramkishore-tic-tac-toe/static/js/main.6644c5d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.30cbdcb3.css",
+    "static/css/main.5b62b96a.css",
     "static/js/main.6644c5d3.js"
   ]
 }
