@@ -18,6 +18,7 @@ function App() {
 
   //isX is used to check X or O. 
   const [isX,setIsX] = useState(true);
+  
 
   //To set the winner of the game.
   const [winner,setWinner] = useState("");
@@ -25,6 +26,8 @@ function App() {
   //To check whether the game is draw.
   const [draw,setDraw] = useState(0);
 
+  const [handleComputer,setHandleComputer] = useState(false);
+  const [computerIndex,setComputerIndex] = useState(false);
   //To restaqrt the game.
   const handleRestart = ()=>{
     window.location.reload();
@@ -59,7 +62,7 @@ function App() {
           if(draw === 9 && winner === ""){
             console.log(winner);
             const audio = new Audio(drawSound).play();
-        }
+          }
         }
       
   },[board]);
@@ -85,7 +88,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h2>Tic Tac Toe - X starts first</h2>
+      <h2>Tic Tac Toe - {isX ? <span>X move now</span>:<span>O move now</span>}</h2>
       <div className='board'>
         <Button value={board[0]} onClick={()=>handleClick(0)}/>
         <Button value={board[1]} onClick={()=>handleClick(1)}/>
@@ -98,7 +101,7 @@ function App() {
         <Button value={board[8]} onClick={()=>handleClick(8)}/>
       </div>
       <div className='win-status-restart'>
-        {winner == "X" ? <h2>X wins</h2> : winner == "O" ? <h2>O wins</h2>: draw == 9 ? <h2>Draw</h2> : null}
+        {winner === "X" ? <h2>X wins</h2> : winner === "O" ? <h2>O wins</h2>: draw === 9 ? <h2>Draw</h2> : null}
         <button className='restart-btn' onClick={handleRestart}>Restart</button>
       </div>
       
