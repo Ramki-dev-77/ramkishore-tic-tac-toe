@@ -6,22 +6,11 @@
   align-items: center;
   /* height: 100vh; */
   flex-direction: column;
-
+  color: white;
 }
 body{
-   background-color: bisque;
+   background: linear-gradient(to right,#4568dc,#b06ab3);
    font-family:Arial;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .board{
@@ -32,11 +21,11 @@ body{
 .btn{
   height: 100px;
   width: 100px;
-  border: 1px solid white;
   color: white;
   font-size: 40px;
   border-radius: 10px;
-  background-color: rgb(12, 67, 116);
+  /* background-color: rgb(12, 67, 116); */
+  background: linear-gradient(to right,#362d2d,#452a2a);
   cursor: pointer;
 }
 .btn:hover{
