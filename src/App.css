@@ -24,9 +24,9 @@ body{
   color: white;
   font-size: 40px;
   border-radius: 10px;
-  /* background-color: rgb(12, 67, 116); */
-  background: linear-gradient(to right,#362d2d,#452a2a);
+  background: linear-gradient(to right, rgb(40, 35, 135),rgb(24, 18, 142));
   cursor: pointer;
+  border: 2px solid rgb(0, 68, 255);
 }
 .btn:hover{
   opacity: 0.9;
